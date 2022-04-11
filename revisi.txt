@@ -1,0 +1,11 @@
+Pembimbing 1.
+1. sertakan bukti data observasi
+2. sertakan profil SMA Mutiara Insan Nusantara pada bab 1 latar belakang pada paragraf 3
+
+Pembimbing 2
+1. membuat solusi pada latar belakang
+2. rumusan masalh apa yang mencondongkan apa yang mencondongkan saya membuat sistem tersebut
+3. tujuan sistem dibuat (tujuan dan manfaat)
+4. manfaat membuat sistem(didalam penilaian raport)
+5. Metode pemodelan sistem diganti (perancangan pemodelan sistem) serta di sebutkan class dll
+6. judul ganti jangan 2 pilih salah satu penilaian atau nilai

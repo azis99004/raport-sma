@@ -1,0 +1,4 @@
+admin : hanya , menambahkan data siswa mengupdat predikat, mebuat format raport (mata pelajaran)
+wali kelas : mempunyai wewenang untuk menginput data dari guru, memberikan deskripsi, mengisi absensi ,dan catatan kelas, field tanda tangan wali kelas dibuat manual dan kepala sekolah agar bisa di isi sendiri
+guru : menginput dan mengedit data nilai siswa = nilai tugas(dapat menambah kolom), nilai ulangan , nilai pts, nilai uas
+siswa : hanya dapat melihat data nilai dan mendownload nilai raport

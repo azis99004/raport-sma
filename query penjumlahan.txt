@@ -1,0 +1,10 @@
+Hitung total nilai
+SELECT SUM(nilai_mapel) from tb_nilai_mapel WHERE id_siswa = '1'
+
+Hitung total nilai rata-rata
+SELECT AVG(nilai_mapel) from tb_nilai_mapel WHERE id_siswa = '1'
+
+absensi
+SELECT kehadiran, COUNT(kehadiran) AS jumlah FROM tb_absen WHERE id_siswa = '1' GROUP BY kehadiran
+
+SELECT kehadiran, COUNT(kehadiran) AS jumlah FROM tb_absen WHERE id_siswa = '18' AND kode_tahun_akademik = '1' GROUP BY kehadiran

@@ -1,0 +1,84 @@
+Page Admin
+
+http://localhost/smamutiara/pages/admin/dataguru.php
+http://localhost/smamutiara/pages/admin/ubahguru.php?id=1
+http://localhost/smamutiara/pages/admin/datasiswa.php
+http://localhost/smamutiara/pages/admin/detailsiswa.php?id=1
+http://localhost/smamutiara/pages/admin/ubahsiswa.php?id=1
+http://localhost/smamutiara/pages/admin/datawalikelas.php
+http://localhost/smamutiara/pages/admin/datakelas.php
+http://localhost/smamutiara/pages/admin/add-kelas.php (hilangin search sekalian)
+http://localhost/smamutiara/pages/admin/ubahkelas.php?id=36
+http://localhost/smamutiara/pages/admin/datamapel.php
+http://localhost/smamutiara/pages/admin/add-mapel.php (hilangin search sekalian)
+http://localhost/smamutiara/pages/admin/ubahmapel.php?id=MP101
+http://localhost/smamutiara/pages/admin/datauser.php
+http://localhost/smamutiara/pages/admin/add-userguru.php
+http://localhost/smamutiara/pages/admin/add-userwalikelas.php
+http://localhost/smamutiara/pages/admin/add-user.php
+http://localhost/smamutiara/pages/admin/ubahpassword.php?id=18
+http://localhost/smamutiara/pages/admin/jadwalmapel.php
+http://localhost/smamutiara/pages/admin/add-jadwal.php
+http://localhost/smamutiara/pages/admin/ubahjadwal.php?id=2
+http://localhost/smamutiara/pages/admin/datatahunakademik.php
+http://localhost/smamutiara/pages/admin/add-tahunakademik.php
+http://localhost/smamutiara/pages/admin/ubahtahunakademik.php?id=1
+http://localhost/smamutiara/pages/admin/pilihtahundankelas.php
+http://localhost/smamutiara/pages/admin/print-raport.php?tahun=1&kelas=36
+
+halaman guru
+
+http://localhost/smamutiara/pages/guru/profil.php (hilangin search sekalian)
+http://localhost/smamutiara/pages/guru/profil-detailguru.php?id=1 (hilangin search sekalian)
+http://localhost/smamutiara/pages/guru/ubahguru.php?id=1 (hilangin tombol search sekalian)
+http://localhost/smamutiara/pages/guru/ubahpassword.php?id=41 (hilangin tombol search sekalian)
+http://localhost/smamutiara/pages/guru/siswa.php?kelas=36
+http://localhost/smamutiara/pages/guru/detailsiswa.php?id=1
+http://localhost/smamutiara/pages/guru/add-nilaimapel2.php?id=1
+http://localhost/smamutiara/pages/guru/add-nilaiketerampilan2.php?id=1
+http://localhost/smamutiara/pages/guru/add-nilaispiritual2.php?id=1
+http://localhost/smamutiara/pages/guru/add-nilaisikapsosial2.php?id=1
+http://localhost/smamutiara/pages/guru/detailnilaipengetahuan2.php?id=1
+http://localhost/smamutiara/pages/guru/ubahnilaipengetahuan2.php?id=1
+http://localhost/smamutiara/pages/guru/detailnilaiketerampilan2.php?id=1
+http://localhost/smamutiara/pages/guru/ubahnilaiketerampilan2.php?id=1
+http://localhost/smamutiara/pages/guru/detailnilaisikapspiritual2.php?id=1
+http://localhost/smamutiara/pages/guru/ubahnilaispiritual2.php?id=4
+http://localhost/smamutiara/pages/guru/detailnilaisikapsosial2.php?id=1 (sikap sosial bukan spiritual)
+http://localhost/smamutiara/pages/guru/ubahnilaisikapsosial2.php?id=1
+
+(insert data nilai ruvi)
+
+halaman wali kelas
+http://localhost/smamutiara/pages/walikelas/halaman_walas.php
+http://localhost/smamutiara/pages/walikelas/detailsiswa.php?id=1
+http://localhost/smamutiara/pages/walikelas/ubahsiswa.php?id=1
+http://localhost/smamutiara/pages/walikelas/detailnilaipengetahuan2.php?id=1
+http://localhost/smamutiara/pages/walikelas/detailnilaiketerampilan2.php?id=1
+http://localhost/smamutiara/pages/walikelas/detailsnilaisikapspiritual2.php?id=1
+http://localhost/smamutiara/pages/walikelas/detailsnilaisosial2.php?id=1
+http://localhost/smamutiara/pages/walikelas/add-nilai-raport.php?id=1
+http://localhost/smamutiara/pages/walikelas/add-nilaiextra.php?id=1
+http://localhost/smamutiara/pages/walikelas/dataextrakulikuler.php?id=1
+http://localhost/smamutiara/pages/walikelas/ubahnilaiextra.php?id=6
+http://localhost/smamutiara/pages/walikelas/tambahkeputusanwalas.php?id=1
+http://localhost/smamutiara/pages/walikelas/pilihtahun.php
+http://localhost/smamutiara/pages/walikelas/print-raport.php?tahun=1
+http://localhost/smamutiara/pages/walikelas/pilih-tahun-siswa.php
+http://localhost/smamutiara/pages/walikelas/dataabsensiswa.php?tahun=1
+http://localhost/smamutiara/pages/walikelas/totalabsensiswa.php?id=1&kelas=36&tahun=1
+http://localhost/smamutiara/pages/walikelas/add-total-absen.php?id=1&kelas=36&tahun=1
+
+halaman siswa
+
+http://localhost/smamutiara/pages/siswa/halaman_siswa.php
+http://localhost/smamutiara/pages/siswa/profil-siswa.php(hilangkan search)
+http://localhost/smamutiara/pages/siswa/profil-detailsiswa.php?id=1(hilangkan search)
+http://localhost/smamutiara/pages/siswa/ubahsiswa.php?id=1(hilangkan search)
+http://localhost/smamutiara/pages/siswa/ubahpassword.php?id=22(hilangkan search dan perbaiki navbar)
+http://localhost/smamutiara/pages/siswa/datasiswa.php
+http://localhost/smamutiara/pages/siswa/absensiswa.php?id=1
+http://localhost/smamutiara/pages/siswa/pilihtahun.php
+http://localhost/smamutiara/pages/siswa/print-raport.php?tahun=1
+
+

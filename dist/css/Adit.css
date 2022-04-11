@@ -1,0 +1,44 @@
+.container-fluid {
+  background-image: url("../assets/img/backgroundSMA.jpg");
+  background-size: cover;
+}
+
+input.form-control {
+  border-radius: 20px;
+  height: 40px;
+}
+.login-page {
+  border-radius: 20px;
+  padding: 50px;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 110px;
+  background-color: white;
+  background: rgba(210, 185, 185, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.0px);
+  -webkit-backdrop-filter: blur(5.0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.shadow {
+  background: rgba(210, 185, 185, 0.30);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.0px);
+  -webkit-backdrop-filter: blur(8.0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+p.link {
+  margin-top: 20px;
+}
+
+.register-page {
+  border-radius: 20px;
+  padding: 50px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  background-color: white;
+}

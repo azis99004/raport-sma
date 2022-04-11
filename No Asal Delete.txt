@@ -1,0 +1,9 @@
+Hapus akses di admin
+
+http://localhost/smamutiara/pages/admin/hapusguru.php?id=35
+http://localhost/smamutiara/pages/admin/hapussiswa.php?id=136
+
+hapus akses nilai guru
+http://localhost/smamutiara/pages/guru/hapusnilaipengetahuan.php?id=21
+http://localhost/smamutiara/pages/guru/hapusnilaiketerampilan2.php?id=19
+

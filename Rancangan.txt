@@ -1,0 +1,71 @@
+Membuat tabel siswa sesuai usulan SMA mutiara 
+membuat tabel guru sesuai SMA mutiara
+membuat tabel wali kelas sesuai SMA mutiara
+membuat tabel raport dibagi menjadi 3 sesi sesuai arahan SMA mutiara
+membuat grade nilai yang dapat di edit
+membuat form login dengan session 
+menarik data tabel dari guru untuk wali kelas
+membuat login bagi wali kelas
+menambahkan foto guru
+menambahkan agama guru
+menghapus tabel kode_mapel pada fk tb_guru
+(Tambahan Konten pada dashboard)
+Membuat Deskripsi foto kegiatan sekolah
+manipulasi data nilai mapel dengan dapat menginputkan nilai di siswa dengan metode GET pada id_siswa
+wali kelas tidak dapat edit nilai hanya dapat melihat dan menarik nilai
+guru hanya dapat mengquery data mapel sesuai jadwal mapel
+guru hanya dapat melihat data siswa yang dia ambil kelasnya
+betulkan rentang nilai di halaman guru
+buatkan jadwal mapel untuk guru
+hilangkan absensi otomatis
+
+
+
+Rentang Nilai : 75 > C
+
+req : template raport
+
+email : smamutiarainsannusantara@gmail.com
+No telp : 021-5939-1134
+
+
+fix tb_guru untuk menginput nanti login admin dll
+
+SELECT * FROM tb_guru INNER JOIN tb_mapel ON tb_mapel.kode_mapel = tb_guru.kode_mapel 
+
+SELECT tb_guru.kode_guru,nama_guru,nip,alamat_guru,telp_guru, tb_guru.kode_mapel FROM tb_guru Left Join tb_mapel ON tb_guru.kode_guru = tb_mapel.kode_mapel ORDER BY tb_guru.kode_guru,kode_mapel,nama_guru,nip,alamat_guru,telp_guru
+
+SELECT tb_nilai_mapel.id_nilai_mapel, tb_siswa.nama_siswa, tb_mapel.nama_mapel
+FROM ((tb_nilai_mapel
+INNER JOIN tb_siswa ON tb_nilai_mapel.id_siswa = tb_siswa.id_siswa)
+INNER JOIN tb_mapel ON tb_nilai_mapel.kode_mapel = tb_mapel.kode_mapel);
+(join 3 tabel)
+buat crud mapel
+buat crud kelas
+
+(nilai_mapel v.1)
+SELECT tb_nilai_mapel.id_nilai_mapel,nama_siswa,kode_mapel,nilai,grade,deskripsi, tb_nilai_mapel.id_nilai_mapel FROM tb_nilai_mapel Left Join tb_siswa ON tb_nilai_mapel.id_nilai_mapel = tb_siswa.id_siswa ORDER BY tb_nilai_mapel.id_nilai_mapel,nama_siswa,kode_mapel,nilai,grade,deskripsi
+
+(nilai mapel v.2)
+SELECT * FROM tb_nilai_mapel INNER JOIN tb_guru INNER JOIN tb_siswa ON tb_guru.kode_guru = tb_nilai_mapel.kode_guru
+
+(versi mapel ga sempurna)
+SELECT * FROM tb_nilai_mapel INNER JOIN tb_guru INNER JOIN tb_siswa ON tb_guru.kode_guru = tb_nilai_mapel.kode_guru
+= tb_siswa.id_siswa = tb_nilai_mapel.kode_guru 	
+
+(versi final v.1)
+SELECT tb_nilai_mapel.id_nilai_mapel,nama_guru,nama_siswa,nama_mapel,nilai,grade,deskripsi, tb_nilai_mapel.id_nilai_mapel FROM tb_nilai_mapel Left Join tb_siswa ON tb_nilai_mapel.id_siswa = tb_siswa.id_siswa Left Join tb_guru ON tb_nilai_mapel.kode_guru = tb_guru.kode_guru Left Join tb_mapel ON tb_nilai_mapel.kode_mapel = tb_mapel.kode_mapel ORDER BY tb_nilai_mapel.id_nilai_mapel,nama_guru,nama_siswa,nama_mapel,nilai,grade,deskripsi
+
+
+(wali kelas)
+SELECT * FROM tb_siswa inner join tb_user on tb_user.kode_walas=tb_siswa.id_siswa left join tb_kelas on tb_siswa.kode_kelas = tb_siswa.id_siswa WHERE username='$_SESSION[kode_walas]'
+
+SELECT * FROM tb_siswa inner join tb_kelas on tb_siswa.kode_kelas=tb_kelas.kode_kelas left join tb_walas on tb_walas.kode_kelas=tb_walas.kode_walas right join tb_user on tb_user.kode_walas=tb_user.kode_walas
+
+tanggal 31 mei 2021 revisi program 1
+
+tanggal 28 juni 2021 revisi program 2
+
+jadikan satu folder nilai siswa
+
+data absensi sesuai guru inputnya

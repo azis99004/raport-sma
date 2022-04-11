@@ -1,0 +1,44 @@
+admin :       admin
+              admin123
+
+Wali Kelas : zakiyatun (10Mipa1)
+	     zakiya23
+	     
+	      hanna (10Mipa2)
+              hanna123
+
+guru : kiki
+	kiki1212
+	
+	aldi
+	aldi
+
+	hannagurumapel
+	hanna144
+	
+	anggaguru
+	angga123
+
+	nupungguru
+	nupung12
+
+	mariaguru
+	maria123
+
+siswa : yuuukaa
+	1440
+
+	abdi
+	abdi2321
+
+	azis01
+	azis0112
+
+	amanda
+	amanda
+
+	nabila12
+	nabila75
+
+	jojo	
+	jojo1234
